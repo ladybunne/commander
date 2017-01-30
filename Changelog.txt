@@ -1,0 +1,21 @@
+Commander Changelog
+
+v1.1 - THE ARGUMENT UPDATE (2016-12-21)
+	added arguments
+	changed matcher/action behaviour to better suit their names
+	added helper commands
+	added summary and help fields for commands
+	added a help method to commands that produces formatted help
+	modified command constructor to force provision of summaries
+	fixed a bug with matching space-delimited cmds parsing as consecutive
+	fixed a bug with matching tokens containing regex special chars
+	fixed a bug with args[0] always being blank
+	fixed a bug with multiple spaces between args causing problems
+	
+v1.0 - THE DEBUT UPDATE (2016-08-05) 
+	added everything
+	to be more specific...
+	added commands that tie a String[] to a Runnable
+	added menus that tie commands to a String
+	added commanders that tie menus together
+	added a bunch of fancy stuff like varargs and default function reference methods
