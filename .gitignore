@@ -1,0 +1,9 @@
+*.class
+*.log
+
+# IntelliJ
+.scala_dependencies
+.worksheet
+out/
+.idea
+*.iml
